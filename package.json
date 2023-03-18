@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@snipkode/framework": "0.0.82"
+    "@snipkode/framework": "0.0.83"
   }
 }
