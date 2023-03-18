@@ -83,7 +83,7 @@ ROUTE('GET             /api/list/           *Todos    --> list    ');
 ROUTE('POST            /api/buat/           *Todos    --> buat    ');
 ROUTE('GET             /api/baca/{id}/      *Todos    --> baca    ');
 ROUTE('POST            /api/update/{id}/    *Todos    --> edit    ');
-ROUTE('POST            /api/hapus/{id}/     *Todos    --> hapus   ');
+ROUTE('DELETE          /api/hapus/{id}/     *Todos    --> hapus   ');
 ROUTE('POST            /api/toggle/{id}/    *Todos    --> mark    ');
 
 
