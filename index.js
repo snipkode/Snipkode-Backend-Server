@@ -1,4 +1,4 @@
-import '@snipkode/framework';
+import '@snipkode/server';
 
 NEWSCHEMA('Todos', function(schema){
 
@@ -87,4 +87,4 @@ ROUTE('DELETE          /api/hapus/{id}/     *Todos    --> hapus   ');
 ROUTE('POST            /api/toggle/{id}/    *Todos    --> mark    ');
 
 
-HTTP('debug');
+HTTP('debug', { port: 6000 });
